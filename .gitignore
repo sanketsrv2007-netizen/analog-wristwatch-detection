@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+.venv-tflite/
+venv/
+env/
+
+# Secrets
+.env
+*.key
+
+# YOLO training outputs
+runs/
+
+# Temporary/cache
+.cache/
+*.cache
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Temporary review files
+*.tmp
+
+# Large archives
+*.zip
+
+# Local datasets
+wrist-watch.v4i.yolov8/
+dataset/
+
+# Generated / converted models
+models/
+weights/
+converted_model/
+results/
+
+# Large model files
+*.pt
+*.onnx
+*.onnx.data
+*.tflite
+*.espdl
+
+# Captured webcam test images
+webcam_watch_images/
+
+# ESP-IDF generated files
+**/build/
+**/managed_components/
+
+# ESP-IDF generated binaries
+*.elf
+*.map
+*.a
+*.o
+*.obj

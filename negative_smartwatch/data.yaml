@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['objects']
+
+roboflow:
+  workspace: usb-detection
+  project: smart-watches-tc4et
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/usb-detection/smart-watches-tc4et/dataset/1
